@@ -1,0 +1,22 @@
+.PokemonCard{
+  border: 1px solid #ccc; 
+  width : 200px;
+  padding: 0px 10px;
+  margin: 10px 10px;
+  display: inline-block;
+}
+
+.Center{
+ text-align: center;
+  
+}
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Pokemon-hidden{
+  display: none;
+}
+
