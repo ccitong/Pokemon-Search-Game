@@ -3,7 +3,7 @@ import "./PokemonCard.css"
 const PokemonCard =(props) =>{
   let isDisplayed = props.itemToShow.isShowing;
   let hidden
-  if(isDisplayed == true){
+  if(isDisplayed === true){
     hidden = ""
   }
   else {
