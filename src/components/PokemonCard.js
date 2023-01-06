@@ -16,7 +16,7 @@ const PokemonCard =(props) =>{
     <div className={`PokemonCard ${hidden}`}>
      <h2 className="Center">{props.itemToShow.name}</h2>
       {
-        <img className = "image" src = {require(`../assets/${props.itemToShow.image}`)}/>
+        <img className = "image" src = {require(`../assets/${props.itemToShow.image}`) } alt="PokemonCard"/>
       }
       <h3 className="Center">Attack Power {props.itemToShow.power}</h3>
     </div>
